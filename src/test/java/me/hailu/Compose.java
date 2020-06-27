@@ -54,6 +54,6 @@ public class Compose implements JMC {
 // Display score in standard musical notation
         View.notate(daisy);
 
-        Write.midi(daisy, "Daisy.mid");
+        Write.midi(daisy, "Daisy001.mid");
     }
 }

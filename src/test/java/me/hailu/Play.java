@@ -39,7 +39,7 @@ public class Play {
     public static void main(String[] args)
     {
         try {
-            FileInputStream fileau=new  FileInputStream("Daisy.mid");
+            FileInputStream fileau=new  FileInputStream("Daisy001.mid");
             AudioStream as=new AudioStream(fileau);
             AudioPlayer.player.start(as);
         } catch (Exception e) {
